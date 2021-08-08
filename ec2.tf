@@ -2,7 +2,7 @@ data "aws_ami" "amazon_linux" {
   most_recent = true
   filter {
     name = "architecture"
-    values = ["arm64"]
+    values = ["x86_64"]
   }
 
   filter {
